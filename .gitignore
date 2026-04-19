@@ -1,0 +1,20 @@
+
+# Dataset files (too large for GitHub)
+data/raw/
+data/processed/
+*.zip
+*.tar.gz
+
+# Model weights (too large for GitHub)
+models/checkpoints/*.pth
+models/tflite/*.tflite
+
+# Python cache files (not needed)
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environment files
+.env
+venv/
